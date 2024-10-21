@@ -1,0 +1,103 @@
+@font-face {
+    font-family: good-times;
+    src: url(/good-times/good\ times\ rg.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#1F2937, #10B981);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: good-times;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1F2937;
+    padding: 120px 60px;
+}
+
+h1 {
+    color: #fff;
+}
+
+span {
+    color: #10B981;
+    display: block;
+}
+
+#head-p {
+    color: #D5D4D8;
+}
+
+#error-el {
+    color: #BE123C;
+    font-weight: 900;
+    font-size: 10px;
+}
+
+input {
+    font-size: 14px;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 8px 17px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;              
+}
+input:hover {
+    border-color: #ccc;
+}
+input:focus{
+    border-color: #9147ff;
+    background: #fff;
+}   
+
+button {
+    background-color: #10B981;
+    color: #fff;
+    line-height: 24px;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 17px;
+    margin-left: 5px;
+    font-family: good-times;
+    font-size: 10px;
+}
+
+button:hover{
+    transform: scale(1.04);
+    background-color: #10B981;
+    cursor: pointer;
+}
+
+.pw-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p-container {
+    width: 180px;
+    min-height: 40px;
+    border: none;
+    background-color: #273549;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 32px;
+    color: #10B981;
+    font-weight: 500;
+}
+               
+
+                
