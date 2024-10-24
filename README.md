@@ -11,6 +11,7 @@ This application is a program that allows you to generate a random password.
 
 This project is deployed and can be accessed at the following link:
 
-[**Live Demo**]([https://your-deployment-link.com](https://generate-pword.netlify.app))
+[**Live Demo**]
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-green?style=for-the-badge)](https://your-deployment-link.com)
 
 
